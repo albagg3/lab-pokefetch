@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+@font-face {
+    font-family: pokemon;
+    src: url(./Pokemon_Hollow.ttf);
+    
+}
+
+h1{
+    font-family: pokemon;
+    color: #ffe100;
+    background-color: rgb(52, 74, 196);
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card{
+    text-transform: capitalize;
+    color:#ffe100;
+    background-color: #EF5350;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow:-0.6em 0 0.8em rgb(84, 84, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:2em;
+    list-style: none;
+}
+
+.img-size{
+
+    max-width: 100px;
+    max-height: 200px;
+}
