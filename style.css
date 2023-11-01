@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family:pokemon;
 }
 
 @font-face {
@@ -34,6 +34,14 @@ h1{
     justify-content: space-around;
     align-items: center;
 }
+.card:hover{
+    scale: 1.1;
+    transition: 500ms;
+}
+.card:hover > img{
+    rotate: 10deg;
+    
+}
 
 #list{
     display: flex;
@@ -44,7 +52,7 @@ h1{
 }
 
 .img-size{
-
+    
     max-width: 100px;
     max-height: 200px;
 }
